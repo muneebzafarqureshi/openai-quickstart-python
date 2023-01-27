@@ -2,7 +2,7 @@ import openai
 from flask import Flask, redirect, render_template, request, url_for
 
 app = Flask(__name__)
-openai.api_key = "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"
+openai.api_key = API_KEY_MINE
 
 
 @app.route("/", methods=("GET", "POST"))
